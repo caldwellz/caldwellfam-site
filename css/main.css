@@ -1,0 +1,51 @@
+/* Main CSS file */
+
+@import 'normalize.css';
+@import 'h5bp.css';
+
+body {
+  background-color: #0e4d92;
+}
+
+header {
+  width: 100%;
+  background-color: white;
+  color: black;
+  padding: 5px;
+  text-align: center;
+}
+
+.card-deck {
+  padding: 0 5px 5px 5px;
+  margin-right: 0;
+}
+
+.card {
+  border: 2px solid black;
+  min-width: 256px;
+  max-width: 256px;
+  margin-top: 15px;
+  margin-right: 0;
+  text-align: center;
+}
+
+.card-text {
+  text-align: left;
+}
+
+.btn-themed {
+  background-color: #3a3d44;
+  color: #f2efe9;
+  border-color: #2a2d34;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn-themed:hover,
+.btn-themed:focus {
+  background-color: #f2efe9;
+  color: #3a3d44;
+}
+
+footer {
+  margin: 5px;
+}
