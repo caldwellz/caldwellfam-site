@@ -29,6 +29,11 @@ header {
   text-align: center;
 }
 
+.profile-img {
+  width: 120px;
+  margin-top: 0.5rem;
+}
+
 .card-text {
   text-align: left;
 }
